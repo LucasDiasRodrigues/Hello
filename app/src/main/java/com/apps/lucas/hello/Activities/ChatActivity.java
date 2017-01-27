@@ -105,4 +105,6 @@ public class ChatActivity extends AppCompatActivity {
         return (super.onOptionsItemSelected(menuItem));
     }
 
+
+    //GitTest2
 }
