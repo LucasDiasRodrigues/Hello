@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="60dp">
+
+    <TextView
+        android:id="@+id/txtNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nome De Usuario"
+        android:gravity="center"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/txtDescSimples"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-- toque na foto para alterar o perfil --"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="24dp"
+        />
+
+    <TextView
+        android:id="@+id/txtDescCompleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/large_text"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+       />
+
+
+
+</LinearLayout>

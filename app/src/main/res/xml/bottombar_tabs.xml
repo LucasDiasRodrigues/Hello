@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tabPerfil"
+        icon="@drawable/ic_menu_account"
+        title="@string/perfil"
+        barColorWhenSelected="@color/primaryPurple"
+        badgeBackgroundColor="#FF0000"/>
+    <tab
+        id="@+id/tabHome"
+        icon="@drawable/ic_menu_home"
+        title="@string/home"
+        barColorWhenSelected="@color/primaryRed"
+        badgeBackgroundColor="#FF0000"/>
+    <tab
+        id="@+id/tabMensagens"
+        icon="@drawable/ic_menu_message_text"
+        title="@string/mensagens"
+        barColorWhenSelected="@color/primaryGreen"
+        badgeBackgroundColor="#FF0000"/>
+</tabs>

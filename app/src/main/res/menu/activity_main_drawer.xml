@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_conversas"
+            android:icon="@drawable/ic_menu_message_text"
+            android:title="Conversas" />
+
+    </group>
+
+
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_menu_account"
+        android:title="Perfil" />
+
+
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Compartilhar" />
+
+    <item
+        android:id="@+id/nav_config"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Configuracoes" />
+
+
+</menu>
