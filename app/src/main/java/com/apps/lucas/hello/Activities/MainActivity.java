@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
     private Toolbar toolbar;
     private AppBarLayout appBarLayout;
     private CollapsingToolbarLayout collapsingToolbarLayout;
-   // private FloatingActionButton fabEditPerfil;
+    // private FloatingActionButton fabEditPerfil;
 
     //Imagem com Animacao
     private static final int PERCENTAGE_TO_ANIMATE_AVATAR = 20;
@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
             }
         });
 
-      //  fabEditPerfil = (FloatingActionButton) findViewById(R.id.fabEdit);
+        //  fabEditPerfil = (FloatingActionButton) findViewById(R.id.fabEdit);
         /*fabEditPerfil.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -186,7 +186,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
                             }
                         }
 
-                        ;
+
                     }.start();
 
                     //TollBar
@@ -218,7 +218,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
                             }
                         }
 
-                        ;
+
                     }.start();
 
                     //TollBar
@@ -364,7 +364,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
         if (percentage >= PERCENTAGE_TO_ANIMATE_AVATAR && mIsAvatarShown) {
             mIsAvatarShown = false;
             mProfileImage.animate().scaleY(0).scaleX(0).setDuration(200).start();
-          //  fabEditPerfil.hide();
+            //  fabEditPerfil.hide();
         }
 
 
@@ -377,7 +377,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
                         .scaleY(1).scaleX(1)
                         .start();
 
-            //    fabEditPerfil.show();
+                //    fabEditPerfil.show();
 
             }
         }
@@ -385,7 +385,7 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
         if (percentage <= 99 && !mIsAvatarShown && FragVisivel != 0 && blockTollbar) {
 
             appBarLayout.setExpanded(false, false);
-          //  fabEditPerfil.hide();
+            //  fabEditPerfil.hide(); teste GitHub
 
         }
 
@@ -396,4 +396,9 @@ public class MainActivity extends AppCompatActivity implements AppBarLayout.OnOf
     public Profile getUserProfile() {
         return userProfile;
     }
+
+    //GIt lalalalala
 }
+
+
+
